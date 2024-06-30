@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #ff7e01;
-  --secondary-color: #faa935;
+  --primary-color: #0b660f;
+  --secondary-color: #5ef09b;
   --heading-color: #0b2727;
   --text-color: #6e7074;
   --font-name: "Montserrat", sans-serif;
@@ -37,6 +37,7 @@ a {
   text-decoration: none;
   color: unset;
 }
+
 ul {
   list-style: none;
 }
@@ -53,9 +54,11 @@ ul {
   text-decoration: none;
   color: #fff;
 }
+
 .primary__btn a:hover {
   color: inherit;
 }
+
 .secondary__btn {
   background: transparent !important;
   color: #0b2727 !important;
@@ -87,12 +90,15 @@ ul {
 }
 
 @media only screen and (max-width:992px) {
+
   .primary__btn a,
   .secondary__btn a {
     font-size: 0.9rem;
   }
 
-  .primary__btn, .secondary__btn, .btn-dark{
+  .primary__btn,
+  .secondary__btn,
+  .btn-dark {
     padding: 0.2rem 1.1rem !important;
   }
 
@@ -102,7 +108,7 @@ ul {
 }
 
 @media only screen and (max-width:768px) {
-  .section__subtitle{
+  .section__subtitle {
     font-size: 1.3rem;
   }
 }
